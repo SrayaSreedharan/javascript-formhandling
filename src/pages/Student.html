@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="Student.css" />
+</head>
+<body>
+  <script src="Student.js"></script>
+  <div class="container">
+    <h2>Student Registration</h2>
+    <form id="studentForm">
+      <input type="text" id="name" placeholder="Enter your name" />
+      <input type="email" id="email" placeholder="Enter your email" />
+      <input type="number" id="age" placeholder="Enter your age" />
+      <button type="submit">Register</button>
+      <p id="error" class="error"></p>
+    </form>
+    <h3>Registered Students</h3>
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody">
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
